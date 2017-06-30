@@ -23,11 +23,27 @@ body{
 }
 
 #input{
+  @extend .center-text;
   border-radius: 100px;
   width: 450px;
   height: 50px;
 }
 
 .button-style{
-  @include title-properties(40px);
+  @extend .center-text;
+  margin: 3px;
+  color: white;
+  font-family: $font;
+}
+
+@mixin bgc($color){
+  background-color: $color;
+}
+
+.btn1{
+  @include bgc(green);
+}
+
+.btn2{
+  @include bgc(red);
 }

@@ -2,7 +2,7 @@ body {
   background-color: #81d4fa;
 }
 
-.center-text, .title, .button-style {
+.center-text, .title, #input, .button-style {
   text-align: center;
 }
 
@@ -20,8 +20,15 @@ body {
 }
 
 .button-style {
-  font-size: 40px;
-  font-family: "Arial Black", sans-serif;
+  margin: 3px;
   color: white;
-  text-shadow: 1px 1px 20px black;
+  font-family: "Arial Black", sans-serif;
+}
+
+.btn1 {
+  background-color: green;
+}
+
+.btn2 {
+  background-color: red;
 }
