@@ -1,34 +1,29 @@
 body {
-  background-color: #81d4fa;
-}
+  background-color: #81d4fa; }
 
 .center-text, .title, #input, .button-style {
-  text-align: center;
-}
+  text-align: center; }
 
 .title {
   font-size: 80px;
   font-family: "Arial Black", sans-serif;
   color: white;
-  text-shadow: 1px 1px 20px black;
-}
+  text-shadow: 1px 1px 20px black; }
 
 #input {
   border-radius: 100px;
   width: 450px;
-  height: 50px;
-}
+  height: 50px; }
 
 .button-style {
   margin: 3px;
   color: white;
-  font-family: "Arial Black", sans-serif;
-}
+  font-family: "Arial Black", sans-serif; }
 
 .btn1 {
-  background-color: green;
-}
+  background-color: green; }
 
 .btn2 {
-  background-color: red;
-}
+  background-color: red; }
+
+/*# sourceMappingURL=style.css.map */

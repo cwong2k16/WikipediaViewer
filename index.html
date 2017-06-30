@@ -4,16 +4,14 @@
   <meta charset="UTF-8">
   <title>Wikipedia Viewer</title>
   
-  
-  
+      <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
       <link rel='stylesheet prefetch' href='https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/3.3.7/css/bootstrap.min.css'>
       <link rel="stylesheet" href="css/style.css">
-    
+      <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
   
 </head>
 
 <body>
-  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
   <h1 class = "title" style = "display:none">
     Wikipedia Viewer
   </h1>
@@ -21,17 +19,32 @@
   <input id = "input">
   </input>
   </div>
-  </input>
   <div class = "button-style">
-   <button id = "button1" class = "btn btn1">
+   <button type="button" class="btn btn1" data-toggle="modal" data-target="#myModal">
      Search
    </button>
    <button id = "button2" class = "btn btn2">
      Random
    </button>
 </div>
-<div id = "test">
 
+<!-- All the modal stuff from Bootstrap goes here -->
+<div class = "modal fade" id="myModal" role="dialog">
+    <div class = "modal-dialog">
+        <div class = "modal-content">
+            <div class = "modal-header">
+                <button type="button" class="close" data-dismiss="modal">&times;</button>
+                <h3 class="modal-title">Wikipedia Pages</h3>
+            </div>
+        <!-- modal-body will be where I pull all the Wikipedia page results into -->
+            <div class="modal-body">
+                  <p>Some text in the modal.</p>
+            </div>
+            <div class="modal-footer">
+                  <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+            </div>
+        </div>
+    </div>
 </div>
 
 <script src="js/index.js"></script>
