@@ -1,0 +1,27 @@
+body {
+  background-color: #81d4fa;
+}
+
+.center-text, .title, .button-style {
+  text-align: center;
+}
+
+.title {
+  font-size: 80px;
+  font-family: "Arial Black", sans-serif;
+  color: white;
+  text-shadow: 1px 1px 20px black;
+}
+
+#input {
+  border-radius: 100px;
+  width: 450px;
+  height: 50px;
+}
+
+.button-style {
+  font-size: 40px;
+  font-family: "Arial Black", sans-serif;
+  color: white;
+  text-shadow: 1px 1px 20px black;
+}

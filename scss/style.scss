@@ -1,0 +1,33 @@
+$bgc: #81d4fa;
+$text-color: white;
+$font: "Arial Black", sans-serif;
+
+body{
+  background-color: $bgc;
+}
+
+.center-text{
+  text-align: center;
+}
+
+@mixin title-properties($font-size){
+  @extend .center-text;
+  font-size: $font-size;
+  font-family: $font;
+  color: $text-color;
+  text-shadow: 1px 1px 20px black;
+}
+
+.title{
+  @include title-properties(80px);
+}
+
+#input{
+  border-radius: 100px;
+  width: 450px;
+  height: 50px;
+}
+
+.button-style{
+  @include title-properties(40px);
+}
